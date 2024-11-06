@@ -48,13 +48,13 @@ public class TurnBasedSystem : MonoBehaviour
     }
     
     /// Returns true if active turn is AI turn.
-    static public bool IsAITurn()
+    static public bool IS_AI_TURN()
     {
         return currentTurn == TurnType.AI;
     }
     
     /// Returns true if active turn is Player turn.
-    static public bool IsPlayerTurn()
+    static public bool IS_PLAYER_TURN()
     {
         return currentTurn == TurnType.Player;
     }
