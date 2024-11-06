@@ -70,7 +70,7 @@ public class TurnBasedSystem : MonoBehaviour
     /// <returns>
     /// Int count of provided turn type.
     /// </returns>
-    static public int GET_TURN_COUNT(TurnType tt = TurnType.NeverSet) // must be set to static to be used as singleton function in other classes.
+    static public int GET_TURN_COUNT(TurnType tt = TurnType.NeverSet) 
     {
         switch(tt)
         {
