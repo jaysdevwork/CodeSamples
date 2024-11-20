@@ -40,8 +40,6 @@ public class Grate : PhysInteraction
     /// </param>
     private void UpdateCollider(Collider2D collider)
     {
-        // Ensure functionality only occurs for a player collision. 
-        PlayerStateHandler playerState = collider.gameObject.GetComponent<PlayerStateHandler>();
         if (!playerState) return;
 
         Collider2D playerCollider = playerState.gameObject.GetComponent<Collider2D>();
