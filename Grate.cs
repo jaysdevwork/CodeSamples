@@ -57,7 +57,10 @@ public class Grate : PhysInteraction
         {
             parentObj.layer = ignoreRayCastLayer; 
         }
-        else parentObj.layer = detectRayCastLayer;  
+        else
+        {
+            parentObj.layer = detectRayCastLayer;
+        }
     }
 
 
